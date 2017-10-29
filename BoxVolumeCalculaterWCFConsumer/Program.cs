@@ -29,6 +29,8 @@ namespace BoxVolumeCalculaterWCFConsumer
                 Console.WriteLine($"Volume is: {volume}");
 
                 Console.WriteLine($"\nSide is: {side}");
+
+                Console.WriteLine();
             }
         }
     }
