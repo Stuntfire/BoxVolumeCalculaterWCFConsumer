@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BoxVolumeCalculaterWCFConsumer
 {
     [DataContract]
-    public class Claculator
+    public class Calculator
     {
         private double _length;
         [DataMember]
@@ -59,17 +59,17 @@ namespace BoxVolumeCalculaterWCFConsumer
         }
 
 
-        public Claculator()
+        public Calculator()
         {
 
         }
 
-        public Claculator(double lenght, double width, double height)
-        {
-            this.Length = lenght;
-            this.Width = width;
-            this.Height = height;
-        }
+        //public Calculator(double lenght, double width, double height)
+        //{
+        //    this.Length = lenght;
+        //    this.Width = width;
+        //    this.Height = height;
+        //}
 
         public override string ToString()
         {
